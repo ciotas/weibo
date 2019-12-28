@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea28f042-5a8d-4010-b6da-8df75bcc9fff" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +160,7 @@
       <updated>1577162634042</updated>
       <workItem from="1577162637202" duration="282000" />
       <workItem from="1577537160975" duration="107000" />
-      <workItem from="1577537357654" duration="282000" />
+      <workItem from="1577537357654" duration="644000" />
     </task>
     <servers />
   </component>
@@ -193,9 +192,9 @@
       <screen x="0" y="23" width="1280" height="720" />
     </state>
     <state x="38" y="23" key="SettingsEditor/0.23.1280.720@0.23.1280.720" timestamp="1577537397958" />
-    <state x="305" y="67" width="838" height="676" key="search.everywhere.popup" timestamp="1577537642774">
+    <state x="305" y="67" width="838" height="676" key="search.everywhere.popup" timestamp="1577538282188">
       <screen x="0" y="23" width="1280" height="720" />
     </state>
-    <state x="305" y="67" width="838" height="676" key="search.everywhere.popup/0.23.1280.720@0.23.1280.720" timestamp="1577537642774" />
+    <state x="305" y="67" width="838" height="676" key="search.everywhere.popup/0.23.1280.720@0.23.1280.720" timestamp="1577538282188" />
   </component>
 </project>
