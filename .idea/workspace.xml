@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea28f042-5a8d-4010-b6da-8df75bcc9fff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,9 +195,13 @@
       <screen x="0" y="23" width="1280" height="720" />
     </state>
     <state x="38" y="23" key="SettingsEditor/0.23.1280.720@0.23.1280.720" timestamp="1577537397958" />
-    <state x="305" y="67" width="838" height="676" key="search.everywhere.popup" timestamp="1577540875245">
+    <state x="311" y="23" width="656" height="708" key="find.popup" timestamp="1577612290868">
       <screen x="0" y="23" width="1280" height="720" />
     </state>
-    <state x="305" y="67" width="838" height="676" key="search.everywhere.popup/0.23.1280.720@0.23.1280.720" timestamp="1577540875245" />
+    <state x="311" y="23" width="656" height="708" key="find.popup/0.23.1280.720@0.23.1280.720" timestamp="1577612290868" />
+    <state x="305" y="67" width="838" height="676" key="search.everywhere.popup" timestamp="1577612265115">
+      <screen x="0" y="23" width="1280" height="720" />
+    </state>
+    <state x="305" y="67" width="838" height="676" key="search.everywhere.popup/0.23.1280.720@0.23.1280.720" timestamp="1577612265115" />
   </component>
 </project>
