@@ -32,6 +32,7 @@ class UsersController extends Controller
         $users = User::paginate(10);
         return view('users.index', compact('users'));
     }
+
     /**
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
@@ -41,12 +42,16 @@ class UsersController extends Controller
     }
 
     /**
-     * @param User $user
-     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector|\Illuminate\View\View
      */
-    public function show(User $user)
+    public function show()
     {
-        return view('users.show', compact('user'));
+        if (Auth::check()) {
+            $user = Auth::user();
+            return view('users.show', compact('user'));
+        } else {
+            return  redirect('/');
+        }
     }
 
     /**
