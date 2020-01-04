@@ -44,14 +44,19 @@ class UsersController extends Controller
     /**
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector|\Illuminate\View\View
      */
-    public function show()
+    public function show(User $user)
     {
-        if (Auth::check()) {
-            $user = Auth::user();
-            return view('users.show', compact('user'));
-        } else {
-            return  redirect('/');
-        }
+        $statuses = $user->statuses()
+            ->orderBy('created_at', 'desc')
+            ->paginate(10);
+
+        return view('users.show', compact('user', 'statuses'));
+//        if (Auth::check()) {
+//            $user = Auth::user();
+//            return view('users.show', compact('user'));
+//        } else {
+//            return  redirect('/');
+//        }
     }
 
     /**
@@ -157,4 +162,5 @@ class UsersController extends Controller
         session()->flash('success', '恭喜你，激活成功！');
         return redirect()->route('users.show', [$user]);
     }
+
 }
