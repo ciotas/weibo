@@ -114,6 +114,10 @@ class User extends Authenticatable
         $this->followings()->detach($user_ids);
     }
 
+    /**
+     * @param $user_id
+     * @return mixed
+     */
     public function isFollowing($user_id)
     {
         return $this->followings->contains($user_id);
