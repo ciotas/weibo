@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ea28f042-5a8d-4010-b6da-8df75bcc9fff" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/StatusesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/StatusesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/statuses/_status.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/statuses/_status.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +163,7 @@
       <workItem from="1577162637202" duration="282000" />
       <workItem from="1577537160975" duration="107000" />
       <workItem from="1577537357654" duration="3357000" />
-      <workItem from="1578141954360" duration="4156000" />
+      <workItem from="1578141954360" duration="5264000" />
     </task>
     <servers />
   </component>
@@ -200,9 +199,9 @@
       <screen x="0" y="23" width="1280" height="720" />
     </state>
     <state x="311" y="23" width="656" height="708" key="find.popup/0.23.1280.720@0.23.1280.720" timestamp="1577612290868" />
-    <state x="305" y="67" width="838" height="676" key="search.everywhere.popup" timestamp="1578148780033">
+    <state x="305" y="67" width="838" height="676" key="search.everywhere.popup" timestamp="1578149464212">
       <screen x="0" y="23" width="1280" height="720" />
     </state>
-    <state x="305" y="67" width="838" height="676" key="search.everywhere.popup/0.23.1280.720@0.23.1280.720" timestamp="1578148780033" />
+    <state x="305" y="67" width="838" height="676" key="search.everywhere.popup/0.23.1280.720@0.23.1280.720" timestamp="1578149464212" />
   </component>
 </project>
