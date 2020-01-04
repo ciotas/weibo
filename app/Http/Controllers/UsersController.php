@@ -51,12 +51,6 @@ class UsersController extends Controller
             ->paginate(10);
 
         return view('users.show', compact('user', 'statuses'));
-//        if (Auth::check()) {
-//            $user = Auth::user();
-//            return view('users.show', compact('user'));
-//        } else {
-//            return  redirect('/');
-//        }
     }
 
     /**
